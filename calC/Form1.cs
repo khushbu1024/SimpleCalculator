@@ -18,6 +18,7 @@ namespace calC
             InitializeComponent();
         }
 
+        //Add Method
         private void btnAdd_Click(object sender, EventArgs e)
         {
             if (txtNum1.Text != String.Empty && txtNum2.Text != String.Empty)
@@ -48,6 +49,7 @@ namespace calC
             return int.TryParse(input, out test);
         }
 
+        //Subtract Method
         private void btnSub_Click(object sender, EventArgs e)
         {
             if (txtNum1.Text != String.Empty && txtNum2.Text != String.Empty)
@@ -69,6 +71,7 @@ namespace calC
 
         }
 
+        //Multiply Method
         private void btnMul_Click(object sender, EventArgs e)
         {
             if (txtNum1.Text != String.Empty && txtNum2.Text != String.Empty)
@@ -89,6 +92,7 @@ namespace calC
             }
         }
 
+        //Division Method
         private void btnDiv_Click(object sender, EventArgs e)
         {
             if (txtNum1.Text != String.Empty && txtNum2.Text != String.Empty)
